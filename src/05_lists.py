@@ -26,6 +26,12 @@ print(x)
 
 # Print the length of list x
 # YOUR CODE HERE 
-
+print(len(x))
 # Print all the values in x multiplied by 1000
 # YOUR CODE HERE
+
+def multiply(x):
+  return x * 1000
+multiplied = map(multiply, x)
+numbers = set(multiplied)
+print(numbers)
