@@ -31,9 +31,12 @@ print(len(x))
 
 # Print all the values in x multiplied by 1000
 # YOUR CODE HERE
-def multiply(x):
-  return x * 1000
+# def multiply(x):
+#   return x * 1000
 
-multiplied = map(multiply, x)
-numbers = set(multiplied)
-print(numbers)
+# multiplied = map(multiply, x)
+# numbers = set(multiplied)
+# print(numbers)
+
+multiplied = [i * 1000 for i in x]
+print(multiplied)
